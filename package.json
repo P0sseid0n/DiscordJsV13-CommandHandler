@@ -1,0 +1,24 @@
+{
+	"name": "discordjsv13-commandhandler",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "cross-env NODE_ENV=development ts-node-dev -r tsconfig-paths/register --respawn ./app/index.ts",
+		"build": "tsc && tsc-alias",
+		"check": "tsc --noEmit"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"cross-env": "^7.0.3",
+		"ts-node-dev": "^1.1.8",
+		"tsc": "^2.0.4",
+		"tsconfig-paths": "^4.0.0"
+	},
+	"dependencies": {
+		"discord.js": "^13.6.0",
+		"dotenv": "^16.0.1"
+	}
+}
